@@ -1,0 +1,93 @@
+.wrapper {
+  font-family: 'Indie Flower', cursive;
+  margin: 25px 0px 0px 25px;
+  background: url('./img/background.png');
+  background-size: 53px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-color: rgba(61, 58, 58, 0.308);
+  display: flex;
+  color: rgb(255, 255, 255);
+  max-width: 500px;
+  height: 100%;
+  justify-content: center;
+  flex-flow: row wrap;
+  border-radius: 6px;
+  text-shadow: 1px 1px 10px #0000007c;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.degrees-wrapper {
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.weather-properties {
+  display: flex;
+  flex-flow: column wrap;
+  width: 290px;
+}
+
+.city-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin:25px 0px 0px 25px;
+}
+
+.city {
+  margin-bottom: 0px;
+}
+
+.degrees {
+  display: flex;
+  font-size: 3rem;
+  margin-bottom: -15px;
+}
+
+.weather-description {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  line-height: 1.5rem;
+}
+
+.next-days {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#map {  
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 25px 55px 0px 0px;
+  border-radius: 20px;
+  border-image: url(./img/clearhight.jpeg);
+  overflow: hidden;
+  
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  background-size: cover ;
+}
+
+.day-wrap {
+  margin: 10px;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
